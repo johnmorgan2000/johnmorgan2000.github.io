@@ -17,8 +17,11 @@ nav button {
     color: white;
     font-weight: bolder;
     font-size: 1.1rem;
-
     background-color: var(--secondarycolor);
+    transition-duration: 0.5s;
+}
+nav button:hover {
+    background-color: #198ac4;
 }
 
 #photo {

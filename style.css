@@ -1,3 +1,6 @@
+body {
+    min-width: 475px;
+}
 :root {
     --primarycolor: #d256ff;
     --secondarycolor: #56c6ff;
@@ -34,4 +37,22 @@ nav button:hover {
 
 .card {
     width: 325px;
+}
+
+#contact li {
+    font-size: 0.9rem;
+}
+
+h1[class~="block-header"] {
+    color: var(--primarycolor);
+}
+
+.language {
+    color: var(--primarycolor);
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
+div a h1 {
+    font-size: 1.5rem;
 }

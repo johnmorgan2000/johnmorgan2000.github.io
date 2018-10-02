@@ -31,6 +31,12 @@ nav button:hover {
     background-color: #198ac4;
 }
 
+nav h1 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 #photo {
     border-radius: 50px;
 }

@@ -22,8 +22,8 @@ nav button {
     border: none;
     border-radius: 4px;
     color: white;
-    font-weight: bolder;
     font-size: 1.1rem;
+
     background-color: var(--secondarycolor);
     transition-duration: 0.5s;
 }
@@ -35,6 +35,11 @@ nav h1 {
     margin-bottom: 0;
     font-weight: bold;
     font-size: 1.5rem;
+}
+@media (min-width: 960px) {
+    nav h1 {
+        font-size: 2rem;
+    }
 }
 
 #photo {
@@ -55,7 +60,7 @@ h1[class~="block-header"] {
 
 .language {
     color: var(--primarycolor);
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 15px;
 }
 

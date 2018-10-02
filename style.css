@@ -10,6 +10,10 @@ body {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+#bio {
+    font-size: 1.1rem;
+}
+
 #content {
     background-color: lightgrey;
 }
@@ -42,6 +46,24 @@ nav h1 {
     }
 }
 
+@media (max-width: 979px) {
+    #practice {
+        order: 1;
+    }
+    #projects {
+        order: 2;
+    }
+}
+
+@media (min-width: 980px) {
+    #practice {
+        order: 2;
+    }
+    #projects {
+        order: 1;
+    }
+}
+
 #photo {
     border-radius: 50px;
 }
@@ -50,8 +72,18 @@ nav h1 {
     width: 325px;
 }
 
-#contact li {
+#contact li,
+#practice l1 {
     font-size: 0.9rem;
+}
+
+#practice {
+    height: 100%;
+}
+
+#practice li {
+    font-size: 1.5rem;
+    color: var(--secondarycolor);
 }
 
 h1[class~="block-header"] {
@@ -66,4 +98,11 @@ h1[class~="block-header"] {
 
 div a h1 {
     font-size: 1.5rem;
+}
+
+#bio,
+#contact,
+#practice,
+#projects {
+    border: 1px solid var(--secondarycolor);
 }

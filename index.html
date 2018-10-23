@@ -46,15 +46,10 @@
     <div class="container">
         <div class="row justify-content-between">
             <div id="bio" class="col-sm-12 col-lg-8 rounded mt-2 p-0 bg-white">
-                <div class="">
+                <div>
                     <h1 class="block-header row justify-content-around">My Bio</h1>
-                    <p class="m-0 p-2">
-                        Hello there, my name is John Morgan and welcome to my portfolio. After graduating with honors from Charleston High School
-                        in 2018, I enrolled at Base Camp Coding Academy. The instructors here work vey hard to ensure that
-                        we have all the necessary qualities and experience to get hired as developers. So far this year,
-                        I have learned to write code in python, html, css, and javascript. By the time I finish this program,
-                        I expect to know many more languages ,as well as, how to be a more professional worker in order to
-                        be the most competent programmer I can be.
+                    <p id="bio-paragraph" class="m-0 p-2">
+
                     </p>
                 </div>
             </div>
@@ -98,57 +93,25 @@
                 </div>
                 <ul id="favorite">
                     <h2 class="language">Favorites</h2>
-                    <li>
-                        <div>
-                            <a href="https://github.com/BaseCampCoding/bookstore"><h1>bookstore</h1></a>
-                            <p>A book store website where we finished the html in the templates</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="https://github.com/johnmorgan2000/rental_store_johnmorgan"><h1>rental_store_johnmorgan</h1></a>
-                            <p>A rental store project made using python</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="https://github.com/johnmorgan2000/Gladiators-Classes"><h1>Gladiators-Dictionaries</h1></a>
-                            <p>A Gladiator game made in python using Classes</p>
-                        </div>
-                    </li>
+                    <div>
+
+                    </div>
+
 
 
                 </ul>
                 <ul id="python">
                     <h2 class="language">Python</h2>
-                    <li>
-                        <div>
-                            <a href="https://github.com/johnmorgan2000/rental_store_johnmorgan"><h1>rental_store_johnmorgan</h1></a>
-                            <p>A rental store project made using python</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="https://github.com/johnmorgan2000/Gladiators-Dictionaries"><h1>Gladiators-Dictionaries</h1></a>
-                            <p>A Gladiator game made in python using Dictionaries</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="https://github.com/johnmorgan2000/Gladiators-Classes"><h1>Gladiators-Dictionaries</h1></a>
-                            <p>A Gladiator game made in python using Classes</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="https://github.com/johnmorgan2000/blackjack"><h1>blackjack</h1></a>
-                            <p>A school project to make a blackjack card game</p>
-                        </div>
-                    </li>
+                    <div>
+
+                    </div>
                 </ul>
                 <ul id="html">
                     <h2 class="language">HTML</h2>
-                    <li>
+                    <div>
+
+                    </div>
+                    <!-- <li>
                         <div>
                             <a href="https://github.com/johnmorgan2000/bootstrap_forms"><h1>bootstrap_forms</h1></a>
                             <p>Practice making forms using bootstrap</p>
@@ -195,12 +158,13 @@
                             <a href="https://github.com/johnmorgan2000/devto_ELI5"><h1>devto_ELI5</h1></a>
                             <p>Practice making a Explain Like I'm 5 devto component</p>
                         </div>
-                    </li>
+                    </li> -->
 
                 </ul>
                 <ul id="javascript">
                     <h2 class="language">Javascript</h2>
-                    <li>
+                    <div></div>
+                    <!-- <li>
                         <div>
                             <a href="https://github.com/johnmorgan2000/get_programming_node.js_chapter5"><h1>get_programming_node.js_chapter5</h1></a>
                             <p>Practice done in Get_programming with node.js chapter 5</p>
@@ -223,7 +187,7 @@
                             <a href="https://github.com/johnmorgan2000/get_programing_node.js_chapter2"><h1>get_programming_node.js_chapter2</h1></a>
                             <p>Practice done in Get_programming with node.js chapter 2</p>
                         </div>
-                    </li>
+                    </li> -->
 
                 </ul>
 
@@ -231,9 +195,19 @@
         </div>
     </div>
 
-    <!-- <script src="js/jquery.js "></script>
-    <script src="js/popper.js "></script>
-    <script src="js/bootstrap.js "></script> -->
+    <script id="projects-template" type="text/x-handlebars-template">
+        <li>
+        <div>
+            <a href="{{github}}"><h1>{{title}}</h1></a>
+            <p>{{description}}</p>
+        </div>
+    </li>
+    </script>
+
+    <script src="handlebars/handlebars.js"></script>
+    <script src="DATA.js"></script>
+    <script src="javascript.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"

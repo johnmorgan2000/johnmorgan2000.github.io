@@ -20,61 +20,63 @@ const DATA = {
             category: "favorites",
             github: "https://github.com/BaseCampCoding/bookstore",
             description:
-                "A book store website where we finished the html in the templates"
+                "A book store website where we as a class finished the html in the templates"
         },
         {
             title: "rental_store_johnmorgan",
             category: "favorites",
             github: "https://github.com/johnmorgan2000/rental_store_johnmorgan",
-            description: "A rental store project made using python"
+            description:
+                "A rental store project made in python to simulate someone renting a returning an item"
         },
         {
             title: "Gladiators-Dictionaries",
             category: "favorites",
             github: "https://github.com/johnmorgan2000/Gladiators-Classes",
-            description: "A Gladiator game made in python using Classes"
+            description:
+                "A Gladiator game made in python using python's dictionaries."
         },
         {
             title: "rental_store_johnmorgan",
             category: "python",
             github: "https://github.com/johnmorgan2000/rental_store_johnmorgan",
-            description: "A rental store project made using python"
+            description: "A rental store project made using python."
         },
         {
             title: "Gladiators-Dictionaries",
             category: "python",
             github: "https://github.com/johnmorgan2000/Gladiators-Dictionaries",
-            description: "A Gladiator game made in python using Dictionaries"
+            description: "A Gladiator game made in python using Dictionaries."
         },
         {
             title: "Gladiators-Classes",
             category: "python",
             github: "https://github.com/johnmorgan2000/Gladiators-Classes",
-            description: "A Gladiator game made in python using Classes"
+            description: "A Gladiator game made in python using Classes."
         },
         {
             title: "blackjack",
             category: "python",
             github: "https://github.com/johnmorgan2000/blackjack",
-            description: "A school project to make a blackjack card game"
+            description: "A school project to make a blackjack card game."
         },
         {
             title: "bootstrap_forms",
             category: "html",
             github: "https://github.com/johnmorgan2000/bootstrap_forms",
-            description: "Practice making forms using bootstrap"
+            description: "Practice making forms using bootstrap."
         },
         {
             title: "slack_features",
             category: "html",
             github: "https://github.com/johnmorgan2000/slack_features",
-            description: "Html and css practice making slack features"
+            description: "Html and css practice making slack features."
         },
         {
             title: "pypi_projects",
             category: "html",
             github: "https://github.com/johnmorgan2000/pypi_projects",
-            description: "Html and css practice making a Pypi web component"
+            description: "Html and css practice making a Pypi web component."
         },
         {
             title: "get_programming_node.js_chapter5",
@@ -82,7 +84,7 @@ const DATA = {
             github:
                 "https://github.com/johnmorgan2000/get_programming_node.js_chapter5",
             description:
-                "Practice done in Get_programming with node.js chapter 5"
+                "Practice done in Get_programming with node.js chapter 5."
         },
         {
             title: "get_programming_node.js_chapter4",
@@ -90,14 +92,14 @@ const DATA = {
             github:
                 "https://github.com/johnmorgan2000/get_programming_node.js_chapter4",
             description:
-                "Practice done in Get_programming with node.js chapter 4"
+                "Practice done in Get_programming with node.js chapter 4."
         },
         {
             title: "Ping-Pong",
             category: "javascript",
             github: "https://github.com/johnmorgan2000/Ping-Pong",
             description:
-                "Project used to practice Javascript fetch() function through APIs"
+                "Project used to practice Javascript fetch() function through APIs."
         },
         {
             title: "Prison-break",

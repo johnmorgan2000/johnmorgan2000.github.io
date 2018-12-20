@@ -37,30 +37,4 @@ function returnProjectTemplate(template, project) {
     });
 }
 
-function show_description() {
-    var blocks = document.querySelectorAll(".data-block");
-    for (const block of blocks) {
-        block.addEventListener("click", () => {
-            let description = block.querySelector(".description");
-            let title = block.querySelector(".project-title");
-            description.classList.remove("hidden");
-            title.classList.add("hidden");
-        });
-    }
-}
-
-function hide_description() {
-    var blocks = document.querySelectorAll(".data-block");
-    for (const block of blocks) {
-        block.addEventListener("mouseleave", () => {
-            let description = block.querySelector(".description");
-            let title = block.querySelector(".project-title");
-            title.classList.remove("hidden");
-            description.classList.add("hidden");
-        });
-    }
-}
-
 renderProjects(DATA);
-show_description();
-hide_description();

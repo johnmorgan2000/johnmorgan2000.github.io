@@ -1,6 +1,6 @@
-body {
+/* body {
     min-width: 475px;
-}
+} */
 :root {
     --primarycolor: #d90dfd;
     --secondarycolor: #56c6ff;
@@ -43,11 +43,6 @@ nav h1 {
     margin-bottom: 0;
     font-weight: bold;
     font-size: 1.5rem;
-}
-@media (min-width: 960px) {
-    nav h1 {
-        font-size: 2rem;
-    }
 }
 
 #photo {
@@ -95,7 +90,7 @@ div a h1 {
     word-wrap: break-word;
     border: 1px solid var(--primarycolor);
     border-radius: 10px;
-    height: 125px;
+    height: 175px;
 }
 
 .project-github:hover,
@@ -106,4 +101,52 @@ div a h1 {
 
 .description {
     position: absolute;
+    display: none;
+    pointer-events: none;
+    padding-top: 5px;
+}
+
+.data-block:focus > .project-title {
+    display: none;
+    pointer-events: none;
+}
+
+.data-block:focus > .description {
+    display: block;
+    pointer-events: all;
+}
+
+.github-link {
+    position: absolute;
+    top: 60%;
+}
+
+@media (min-width: 960px) {
+    nav h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav h1 {
+        font-size: 1.2rem;
+    }
+
+    #content h1,
+    #content h2,
+    #content h4 {
+        font-size: 1.2rem;
+    }
+
+    #content p {
+        font-size: 14px;
+    }
+
+    #practice li {
+        font-size: 14px;
+    }
+
+    #photo {
+        width: 50px;
+    }
 }

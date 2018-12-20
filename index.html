@@ -153,9 +153,9 @@
                     class="bg-white rounded col-sm-12 col-lg-8  justify-content-around p-0 mt-3"
                 >
                     <h1
-                        class="block-header row justify-content-around primary-text-color"
+                        class="block-header row justify-content-around primary-text-color text-center"
                     >
-                        Practiced<br />Languages
+                        Practiced<br />Languages/Frameworks
                     </h1>
                     <ul class="">
                         <li class="px-2 border-0">Python</li>
@@ -176,39 +176,44 @@
                             My Projects
                         </h1>
                     </div>
-                    <ul id="favorite">
+                    <div id="favorite">
                         <h2 class="language primary-text-color">Favorites</h2>
-                        <div class="row"></div>
-                    </ul>
-                    <ul id="python">
+                        <div class="row justify-content-around"></div>
+                    </div>
+                    <div id="python">
                         <h2 class="language primary-text-color">Python</h2>
-                        <div class="row"></div>
-                    </ul>
-                    <ul id="html">
+                        <div class="row justify-content-around"></div>
+                    </div>
+                    <div id="html">
                         <h2 class="language primary-text-color">HTML</h2>
-                        <div class="row"></div>
-                    </ul>
-                    <ul id="javascript">
+                        <div class="row justify-content-around"></div>
+                    </div>
+                    <div id="javascript">
                         <h2 class="language primary-text-color">Javascript</h2>
-                        <div class="row"></div>
-                    </ul>
+                        <div class="row justify-content-around"></div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <script id="projects-template" type="text/x-handlebars-template">
-            <div class="data-block col-5 m-1">
-                <div class="project-title">
+            <div class="data-block col-lg-5 col-md-5 col-sm-6 m-1 switch-click" tabindex="0">
+                <div class="project-title switch-click">
                     <h4 class="project-github">{{title}}</h4>
+                </div>
+                <div class="description">
+                    <p>{{description}}</p>
 
                 </div>
-                <div class="description hidden">
-                    <p>{{description}}</p>
+                <div class="github-link">
+                    <small>(Click inside of box for description)</small>
+                    <br/>
                     <a href="{{github}}" >Go To Github</a>
                 </div>
             </div>
         </script>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="handlebars/handlebars.js"></script>
         <script src="DATA.js"></script>
         <script src="javascript.js"></script>

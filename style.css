@@ -2,12 +2,16 @@ body {
     min-width: 475px;
 }
 :root {
-    --primarycolor: #d256ff;
+    --primarycolor: #d90dfd;
     --secondarycolor: #56c6ff;
 }
 * {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.primary-text-color {
+    color: var(--primarycolor);
 }
 
 #bio {
@@ -46,24 +50,6 @@ nav h1 {
     }
 }
 
-@media (max-width: 979px) {
-    #practice {
-        order: 1;
-    }
-    #projects {
-        order: 2;
-    }
-}
-
-@media (min-width: 980px) {
-    #practice {
-        order: 2;
-    }
-    #projects {
-        order: 1;
-    }
-}
-
 #photo {
     border-radius: 50px;
 }
@@ -72,8 +58,7 @@ nav h1 {
     width: 325px;
 }
 
-#contact li,
-#practice l1 {
+#contact li {
     font-size: 0.9rem;
 }
 
@@ -86,12 +71,7 @@ nav h1 {
     color: var(--secondarycolor);
 }
 
-h1[class~="block-header"] {
-    color: var(--primarycolor);
-}
-
 .language {
-    color: var(--primarycolor);
     font-size: 2rem;
     padding-top: 15px;
 }
@@ -105,4 +85,25 @@ div a h1 {
 #practice,
 #projects {
     border: 1px solid var(--secondarycolor);
+}
+
+.hidden {
+    display: none;
+}
+
+.data-block {
+    word-wrap: break-word;
+    border: 1px solid var(--primarycolor);
+    border-radius: 10px;
+    height: 125px;
+}
+
+.project-github:hover,
+.project-github {
+    text-decoration: none;
+    color: var(--secondarycolor);
+}
+
+.description {
+    position: absolute;
 }

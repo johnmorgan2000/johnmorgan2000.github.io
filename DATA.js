@@ -91,6 +91,20 @@ const DATA = {
                 "https://github.com/johnmorgan2000/get_programming_node.js_chapter4",
             description:
                 "Practice done in Get_programming with node.js chapter 4"
+        },
+        {
+            title: "Ping-Pong",
+            category: "javascript",
+            github: "https://github.com/johnmorgan2000/Ping-Pong",
+            description:
+                "Project used to practice Javascript fetch() function through APIs"
+        },
+        {
+            title: "Prison-break",
+            category: "javascript",
+            github: "https://github.com/johnmorgan2000/Prison-break",
+            description:
+                "A small one level game browser game where you search for the key and escape."
         }
     ]
 };

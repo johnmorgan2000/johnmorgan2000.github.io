@@ -147,6 +147,7 @@ div a h1 {
     }
 
     #photo {
-        width: 50px;
+        width: auto;
+        height: 75px;
     }
 }

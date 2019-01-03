@@ -35,6 +35,7 @@ nav button {
     background-color: var(--secondarycolor);
     transition-duration: 0.5s;
 }
+
 nav button:hover {
     background-color: #198ac4;
 }

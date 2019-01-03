@@ -1,8 +1,8 @@
 const DATA = {
     bio: `Hello there, my name is John Morgan and welcome to my portfolio. After graduating with honors from Charleston High School
-    in 2018, I enrolled at Base Camp Coding Academy. The instructors here work vey hard to ensure that
+    in 2018, I enrolled at Base Camp Coding Academy. The instructors here work very hard to ensure that
     we have all the necessary qualities and experience to get hired as developers. So far this year,
-    I have learned to write code in python, html, css, and javascript. By the time I finish this program,
+    I have learned to write code in Python, Html, Css, and Javascript. By the time I finish this program,
     I expect to know many more languages ,as well as, how to be a more professional worker in order to
     be the most competent programmer I can be.`,
 
@@ -107,6 +107,13 @@ const DATA = {
             github: "https://github.com/johnmorgan2000/Prison-break",
             description:
                 "A small one level game browser game where you search for the key and escape."
+        },
+        {
+            title: "blog_posts",
+            category: "python",
+            github: "https://github.com/johnmorgan2000/blog_posts",
+            description:
+                "A practice project where I made a blog post site using the django framework"
         }
     ]
 };

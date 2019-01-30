@@ -61,40 +61,6 @@ const DATA = {
             description: "A school project to make a blackjack card game."
         },
         {
-            title: "bootstrap_forms",
-            category: "html",
-            github: "https://github.com/johnmorgan2000/bootstrap_forms",
-            description: "Practice making forms using bootstrap."
-        },
-        {
-            title: "slack_features",
-            category: "html",
-            github: "https://github.com/johnmorgan2000/slack_features",
-            description: "Html and css practice making slack features."
-        },
-        {
-            title: "pypi_projects",
-            category: "html",
-            github: "https://github.com/johnmorgan2000/pypi_projects",
-            description: "Html and css practice making a Pypi web component."
-        },
-        {
-            title: "get_programming_node.js_chapter5",
-            category: "javascript",
-            github:
-                "https://github.com/johnmorgan2000/get_programming_node.js_chapter5",
-            description:
-                "Practice done in Get_programming with node.js chapter 5."
-        },
-        {
-            title: "get_programming_node.js_chapter4",
-            category: "javascript",
-            github:
-                "https://github.com/johnmorgan2000/get_programming_node.js_chapter4",
-            description:
-                "Practice done in Get_programming with node.js chapter 4."
-        },
-        {
             title: "Ping-Pong",
             category: "javascript",
             github: "https://github.com/johnmorgan2000/Ping-Pong",

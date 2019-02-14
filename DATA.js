@@ -8,6 +8,14 @@ const DATA = {
 
     projects: [
         {
+            title: "Emoji Maker",
+            category: "favorites",
+            github:
+                "https://github.com/johnmorgan2000/Emoji-Maker",
+            description:
+                "A independent study project where I learned to use React.js to make a simple emoji maker."
+        },
+        {
             title: "Ping-o Pong-o",
             category: "favorites",
             github:

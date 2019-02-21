@@ -6,7 +6,7 @@
     --secondarycolor: #56c6ff;
 }
 
-@keyframes slideInLeft {
+/* @keyframes slideInLeft {
     from {
         position: relative;
         left: -100%;
@@ -26,11 +26,10 @@
         overflow: hidden;
     }
     to {
-        
-        
+        right: 0%;
         overflow: hidden;
     }
-}
+} */
 
 * {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -47,14 +46,14 @@
 
 #bio {
     font-size: 1.1rem;
-    animation-duration: 0.75s;
-    animation-name: slideInLeft;
+    /* animation-duration: 0.75s;
+    animation-name: slideInLeft; */
 }
 
-#contact {
+/* #contact {
     animation-duration: 0.75s;
     animation-name: slideInRight;
-}
+} */
 
 #content {
     background-color: lightgrey;

@@ -17,7 +17,8 @@ function returnProjectTemplate(template, project) {
     return template({
         title: project.title,
         github: project.github,
-        description: project.description
+        description: project.description,
+        liveDemo: project.liveDemo
     });
 }
 

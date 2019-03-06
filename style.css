@@ -133,8 +133,9 @@ div a h1 {
 .data-block {
     word-wrap: break-word;
     border: 1px solid var(--primarycolor);
+    padding-bottom: 8px;
     border-radius: 10px;
-    height: 175px;
+    height: 180px;
 }
 
 .project-github:hover,
@@ -160,9 +161,13 @@ div a h1 {
     pointer-events: all;
 }
 
-.github-link {
+.go-to-link {
     position: absolute;
     top: 60%;
+}
+
+.go-to-link a {
+    display: block;
 }
 
 @media (min-width: 960px) {

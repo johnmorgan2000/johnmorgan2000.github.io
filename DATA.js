@@ -11,21 +11,23 @@ const DATA = {
             title: "Emoji Maker",
             github:
                 "https://github.com/johnmorgan2000/Emoji-Maker",
+            liveDemo: "https://emoji-maker.netlify.com/",
             description:
                 "Learned how to use React.js to make a simple emoji maker during independent study time."
         },
         {
             title: "Ping-o Pong-o",
             github:
-                "https://johnmorgan2000.github.io/johnmorgan-web-rental-agency/?payment=on",
+                "https://github.com/johnmorgan2000/johnmorgan-web-rental-agency",
+            liveDemo: "https://johnmorgan2000.github.io/johnmorgan-web-rental-agency/?payment=on",
             description:
                 "Developed a simulation of a rental site for ping pong supplies."
         },
         {
-            title: "rental_store_johnmorgan",
-            github: "https://github.com/johnmorgan2000/rental_store_johnmorgan",
+            title: "Spring Admission",
+            github: "https://github.com/johnmorgan2000/spring-admisson",
             description:
-                "Created a terminal based rental store simulation using Python."
+                "Developed the admission process for Base Camp Coding Academy using Java and the Spring Framework."
         },
         {
             title: "Ping-Pong",

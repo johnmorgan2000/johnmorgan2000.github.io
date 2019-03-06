@@ -210,10 +210,13 @@
                     <p>{{description}}</p>
 
                 </div>
-                <div class="github-link">
+                <div class="go-to-link">
                     <small>(Click inside of box for description)</small>
                     <br/>
-                    <a href="{{github}}" >Go To ...</a>
+                    <a href="{{github}}" >Go to GitHub</a>
+                    {{#if liveDemo}}
+                    <a href="{{liveDemo}}">See Live Demo</a>
+                    {{/if}}
                 </div>
             </div>
         </script>

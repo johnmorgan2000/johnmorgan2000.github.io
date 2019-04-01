@@ -46,6 +46,12 @@ const DATA = {
             github: "https://github.com/johnmorgan2000/blog_posts",
             description:
                 "Developed a blog post site using the Django Framework and Postgresql"
+        },
+        {
+            title: "employer_postings",
+            github: "https://github.com/johnmorgan2000/employer_postings",
+            description:
+                "BCCA themed job posting site to display our abilities."
         }
     ]
 };

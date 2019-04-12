@@ -86,7 +86,14 @@ nav h1 {
 }
 
 #photo {
-    border-radius: 50px;
+    overflow: hidden;
+    }
+
+#photo-container {
+    height: 200px;
+    width: 150px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .card {
@@ -197,6 +204,10 @@ div a h1 {
 
     #photo {
         width: auto;
-        height: 75px;
+        height: 100px;
+    }
+
+    #photo-container {
+        height: 100px;
     }
 }

@@ -85,14 +85,15 @@ nav h1 {
     font-size: 1.5rem;
 }
 
-#photo {
+/* #photo {
     overflow: hidden;
-    }
+    } */
 
 #photo-container {
     height: 200px;
-    width: 150px;
+    width: 200px;
     margin: 0 auto;
+    margin-top: 10px;
     overflow: hidden;
 }
 

@@ -6,6 +6,13 @@ const DATA = {
 
     projects: [
         {
+            title: "Base Camp Creature Champ",
+            github: "https://github.com/johnmorgan2000/creature-adventure",
+            liveDemo: "https://base-camp-creature-champ.netlify.com/",
+            description:
+                "Base Camp Coding Academy thesis project. I created a game using React.js to show that I can teach myself to use a new tool effectively."
+        },
+        {
             title: "Emoji Maker",
             github: "https://github.com/johnmorgan2000/Emoji-Maker",
             liveDemo: "https://emoji-maker.netlify.com/",
